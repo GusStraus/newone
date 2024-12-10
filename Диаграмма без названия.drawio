@@ -69,7 +69,7 @@
           <mxGeometry x="120" y="645" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FlyFxrjDseqyHdytKtgx-70" value="scrum master" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="565" width="120" height="40" as="geometry" />
+          <mxGeometry x="480" y="565" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FlyFxrjDseqyHdytKtgx-71" value="product" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="480" width="20" height="520" as="geometry" />
