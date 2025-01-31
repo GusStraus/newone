@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.10">
   <diagram name="Страница — 1" id="axzcmo0ZvVUuVzOqP3-f">
-    <mxGraphModel dx="2593" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="864" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1475,6 +1475,39 @@
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-27" value="Или для подсказок, адресов использовали, при вводе пользователем адреса, после перевого введенного слова, отправлялся пост запрос, на дадату с передачей параметров в виде строки куска адреса, введенного пользователем, и в ответ получали массив из объектов потенциальных адресов, с указанием их параметров, один из которых был стандартизированный адрес, в виде гор ул.дом. выводили эти адреса в виде подсказок, подпихивая их в даталист привязанный к форме ввода. Запрос происходил рекурсивно до выбора какого-то значения из пула подсказок пользователем." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-25">
           <mxGeometry y="100" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-28" value="СТОРИ оф ми" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2000" width="440" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-32" value="начало работы" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
+          <mxGeometry y="30" width="440" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-33" value="в 2019 работал помошником аналитика, в диджитал агентстве didjital desh, небольшое агентство там 5 человек в штате было аналитик, лид, маркетолог, сеошник и я." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-32">
+          <mxGeometry y="30" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-34" value="Занимался в основном написанием тз и тестирование продуктов, разработанных на аутсорсе, иногда SRM настраивал" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-32">
+          <mxGeometry y="80" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-35" value="Из проектов - писал тз на разработку одностраничников (в основном дизайнеру) на разработку сайтов, сайт отзовик, и несколько продающих сайтов, тз на интеграцию срм и метрик" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-32">
+          <mxGeometry y="110" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-36" value="Как попал в ibmh" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
+          <mxGeometry y="190" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-38" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-36">
+          <mxGeometry y="30" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-39" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-36">
+          <mxGeometry y="60" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-29" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
+          <mxGeometry y="280" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-30" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
+          <mxGeometry y="310" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-31" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
+          <mxGeometry y="340" width="440" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
