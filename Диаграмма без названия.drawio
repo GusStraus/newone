@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.10">
   <diagram name="Страница — 1" id="axzcmo0ZvVUuVzOqP3-f">
-    <mxGraphModel dx="864" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1477,37 +1477,138 @@
           <mxGeometry y="100" width="410" height="140" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-28" value="СТОРИ оф ми" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="2000" width="440" height="370" as="geometry" />
+          <mxGeometry x="680" y="2000" width="490" height="960" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-32" value="начало работы" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
-          <mxGeometry y="30" width="440" height="160" as="geometry" />
+          <mxGeometry y="30" width="490" height="160" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-33" value="в 2019 работал помошником аналитика, в диджитал агентстве didjital desh, небольшое агентство там 5 человек в штате было аналитик, лид, маркетолог, сеошник и я." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-32">
-          <mxGeometry y="30" width="440" height="50" as="geometry" />
+          <mxGeometry y="30" width="490" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-34" value="Занимался в основном написанием тз и тестирование продуктов, разработанных на аутсорсе, иногда SRM настраивал" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-32">
-          <mxGeometry y="80" width="440" height="30" as="geometry" />
+          <mxGeometry y="80" width="490" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-35" value="Из проектов - писал тз на разработку одностраничников (в основном дизайнеру) на разработку сайтов, сайт отзовик, и несколько продающих сайтов, тз на интеграцию срм и метрик" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-32">
-          <mxGeometry y="110" width="440" height="50" as="geometry" />
+          <mxGeometry y="110" width="490" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-36" value="Как попал в ibmh" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
-          <mxGeometry y="190" width="440" height="90" as="geometry" />
+          <mxGeometry y="190" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-38" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-36">
-          <mxGeometry y="30" width="440" height="30" as="geometry" />
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-38" value="Познакомился со старшим аналитиком, пригласили на собес, пообщались все понравилось привлекли к анализу БП" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-36">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-39" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-36">
-          <mxGeometry y="60" width="440" height="30" as="geometry" />
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-40" value="Что за продукт в IBMH" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
+          <mxGeometry y="250" width="490" height="390" as="geometry">
+            <mxRectangle y="250" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-29" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
-          <mxGeometry y="280" width="440" height="30" as="geometry" />
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-64" value="описание продукта" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-40">
+          <mxGeometry y="30" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-30" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
-          <mxGeometry y="310" width="440" height="30" as="geometry" />
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-65" value="Архитектура - монолитная, потом переписывали под сервис ориентированную (последние полтора года)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-64">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-31" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
-          <mxGeometry y="340" width="440" height="30" as="geometry" />
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-44" value="Внутренняя система для сотрудников института , руководителей и Менеджеров" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-40">
+          <mxGeometry y="90" width="490" height="300" as="geometry">
+            <mxRectangle y="90" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-45" value="Личные кабинеты для Сотрудников, руководителей подразделений, Администрации, Контрактной службы, отдела снабжения (закупки), ответственных по направлениям." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-44">
+          <mxGeometry y="30" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-46" value="Охватывали процесс закупки на предприятии от формирования потребности до генерации документации по оформлению закупки продукта" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-44">
+          <mxGeometry y="90" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-48" value="По закупке" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="j2Eqjv5FCKuMv0kvKQWr-44">
+          <mxGeometry y="120" width="490" height="30" as="geometry">
+            <mxRectangle y="120" width="490" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-49" value="Отслеживание статусов, позиций (движение позиции по процессу закупки) 14 этапов закупки.&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-48">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-50" value="Группировки закупок, по подразделениям, между подразделений, шаблоны закупочных листов." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-48">
+          <mxGeometry y="60" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-51" value="Отслеживание просрочек, корректных заполнений форм" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-48">
+          <mxGeometry y="90" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-47" value="Так же генерация документов (Авансы, Отпуски, Счета, Служебные записки по закупкам)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-44">
+          <mxGeometry y="150" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-56" value="Работы с кабинетом" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-44">
+          <mxGeometry y="180" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-57" value="Экспорт импорт Excel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-56">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-58" value="Фильтры" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-56">
+          <mxGeometry y="60" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-41" value="система уведомлений по статусам позиций (смс, почта, телеграмм)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-44">
+          <mxGeometry y="270" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-60" value="Как проходила разработка(команда)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-28">
+          <mxGeometry y="640" width="490" height="320" as="geometry">
+            <mxRectangle y="370" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-29" value="Работали по системе скрам подобной, менеджер или я собирал пул задач, освещал их на совещании, мы их прорабатывали, в случае чего проводили ревью со старшим аналитиком, далее задача уходила в разработку" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-60">
+          <mxGeometry y="30" width="490" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-68" value="команда" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-60">
+          <mxGeometry y="80" width="490" height="180" as="geometry">
+            <mxRectangle y="30" width="490" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-69" value="руководитель проекта" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-68">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-70" value="менеджер" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-68">
+          <mxGeometry y="60" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-63" value="тестера у нас не было и не надо об этом наверное" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-68">
+          <mxGeometry y="90" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-61" value="4 разработчика&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-68">
+          <mxGeometry y="120" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-71" value="2 аналитика" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-68">
+          <mxGeometry y="150" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-72" value="мои задачи" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="j2Eqjv5FCKuMv0kvKQWr-60">
+          <mxGeometry y="260" width="490" height="30" as="geometry">
+            <mxRectangle y="260" width="490" height="250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-73" value="Общение с внутренним заказчиком, иногда заказчик сам собирал требования, иногда мне приходилось собирать их путем интервьирования заказчика. После сбора информации, проводили встречу с руководителем, для приоритезации задач" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-72">
+          <mxGeometry y="30" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-74" value="Общался с командой разработки, грумил задачи, с ними и планировали спринт, иногда скидывали задачи на аутсорс." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-72">
+          <mxGeometry y="100" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-75" value="потом описание задач, в основном BPMN, редко uml, если находил какие-то доработки - согласовывал их. Писал юз кейсы, юзер стори, функциональные требования. Ту би аз из модели." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-72">
+          <mxGeometry y="130" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-30" value="Финальное согласование, и отдаем задачу в разработку, с выгрузкой в конфлюенс.&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-72">
+          <mxGeometry y="190" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-31" value="После тестов задачи - написание сопутствующей документации (инструкций) демонстрация заказчика, проведение обучения, если нужно." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-72">
+          <mxGeometry y="220" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-76" value="дальше по документации какой-то бред написан что делать ауф" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="j2Eqjv5FCKuMv0kvKQWr-60">
+          <mxGeometry y="290" width="490" height="30" as="geometry">
+            <mxRectangle y="290" width="490" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-77" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-76">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-78" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-76">
+          <mxGeometry y="60" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-79" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-76">
+          <mxGeometry y="90" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
