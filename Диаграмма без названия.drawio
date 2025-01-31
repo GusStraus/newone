@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.10">
   <diagram name="Страница — 1" id="axzcmo0ZvVUuVzOqP3-f">
-    <mxGraphModel dx="1803" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1384,22 +1384,58 @@
         <mxCell id="SFRbijP2orDN6Co49s4V-74" value="Горизонтальное - увеличение количества нод" style="text;strokeColor=default;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SFRbijP2orDN6Co49s4V-72" vertex="1">
           <mxGeometry y="80" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Rf-0l8x9mRja5BAOoYxT-1" value="описание ТЗ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+        <mxCell id="Rf-0l8x9mRja5BAOoYxT-1" value="описание ТЗ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1" collapsed="1">
           <mxGeometry x="440" y="1020" width="240" height="30" as="geometry">
             <mxRectangle x="360" y="1020" width="140" height="150" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rf-0l8x9mRja5BAOoYxT-2" value="Бизнес ценность (что закрывает для бизнеса)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rf-0l8x9mRja5BAOoYxT-1">
+        <mxCell id="Rf-0l8x9mRja5BAOoYxT-2" value="Бизнес ценность (что закрывает для бизнеса)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Rf-0l8x9mRja5BAOoYxT-1" vertex="1">
           <mxGeometry y="30" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Rf-0l8x9mRja5BAOoYxT-3" value="Взаимодействие с пользователем&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rf-0l8x9mRja5BAOoYxT-1">
+        <mxCell id="Rf-0l8x9mRja5BAOoYxT-3" value="Взаимодействие с пользователем&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Rf-0l8x9mRja5BAOoYxT-1" vertex="1">
           <mxGeometry y="80" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rf-0l8x9mRja5BAOoYxT-4" value="Функциональность (описать методы)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rf-0l8x9mRja5BAOoYxT-1">
+        <mxCell id="Rf-0l8x9mRja5BAOoYxT-4" value="Функциональность (описать методы)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="Rf-0l8x9mRja5BAOoYxT-1" vertex="1">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rf-0l8x9mRja5BAOoYxT-5" value="5-7 минут на тз, описание фич - 20-30 секунд , дополнение параметрами запроса." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Rf-0l8x9mRja5BAOoYxT-5" value="5-7 минут на тз, описание фич - 20-30 секунд , дополнение параметрами запроса." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="1020" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-1" value="Интеграция с смс aero" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1120" width="450" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-2" value="Ценность: Интеграция с смс сервисом, по рест АПИ, нужна была 2факторная аутентификация для управления личных кабинетов пользователей системы, для использования реализовали внутренний сервис, работающий как отдельный модуль. В данном сервисе мы реализовали метод:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-1">
+          <mxGeometry y="30" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-3" value="Аутентификации системы в стороннем ресурсе, метод использовался в основном для проверки работоспособности ресурса и корректности подключения. Реализовывался он в виде get запроса с указанием заранее полученных из бд emeil и апи ключа, передаваемых в качестве параметров запроса с одноименными названиями. Метод возвращал json объект, от стороннего сервиса, со статусом запроса и его расшифровкой, так же в случае отсутствия возможности подключится к ресурсу генерировался и возвращался идентичный json объект, с кастомными описаниями статусов ошибки, и передачей параметров запроса." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-1">
+          <mxGeometry y="100" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-4" value="Метод отправки сообщения, мы его использовали для подтверждения действий по смене почты или пароля в лк пользователей. Метод реализован в виде пост запроса, естественно с передачей аутентификационных параметров с добавлением, параметров сообщение получатель и подпись сообщения, для реализации генерации сообщения использовался отдельный метод реализующий генерацию временного кода для проверки операции. Метод отправки возвращал набор параметров с ресурса, по состоянии сообщения, такие как дата отправки, статус, получатель, сеть получателя, сообщение, айди сообщения и проч. параметры, либо ошибка как альтернатива, которая обрабатывалась службой поддержки." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-1">
+          <mxGeometry y="240" width="450" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-6" value="Для отладки использовался метод проверки статуса сообщений, реализованный в виде get запроса с передачей параметров аутентификации и айди сообщения в заголовке запроса. Метод возвращал состояние сообщения со всеми его параметрами, идентичными с методом отправки сообщений." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-1">
+          <mxGeometry y="410" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-5" value="Так же использовали метод проверки состояния счета это проверка баланса, тарифов, использовался метод в ЛК администратора системы, где администратор мог при нажатии на кнопку вызвать метод гет, который передавал параметры аутентификационные на сторонний ресурс, вызывался он по-моему дважды, т.к. разные URL для баланса и тарифа, получали json объект с параметрами тарифа массив из объектов с ключами провайдер стоимость смс, или же баланс с выводом доступных средств. Далее данные передавались на сторону пользователя и выводились в модельном окне." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-1">
+          <mxGeometry y="490" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-8" value="Интеграция с смс aero" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1120" width="450" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-9" value="Ценность: Интеграция с смс сервисом, по рест АПИ, нужна была 2факторная аутентификация для управления личных кабинетов пользователей системы, для использования реализовали внутренний сервис, работающий как отдельный модуль. В данном сервисе мы реализовали метод:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
+          <mxGeometry y="30" width="450" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-10" value="Аутентификации системы в стороннем ресурсе, метод использовался в основном для проверки работоспособности ресурса и корректности подключения. Реализовывался он в виде get запроса с указанием заранее полученных из бд emeil и апи ключа, передаваемых в качестве параметров запроса с одноименными названиями. Метод возвращал json объект, от стороннего сервиса, со статусом запроса и его расшифровкой, так же в случае отсутствия возможности подключится к ресурсу генерировался и возвращался идентичный json объект, с кастомными описаниями статусов ошибки, и передачей параметров запроса." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
+          <mxGeometry y="100" width="450" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-11" value="Метод отправки сообщения, мы его использовали для подтверждения действий по смене почты или пароля в лк пользователей. Метод реализован в виде пост запроса, естественно с передачей аутентификационных параметров с добавлением, параметров сообщение получатель и подпись сообщения, для реализации генерации сообщения использовался отдельный метод реализующий генерацию временного кода для проверки операции. Метод отправки возвращал набор параметров с ресурса, по состоянии сообщения, такие как дата отправки, статус, получатель, сеть получателя, сообщение, айди сообщения и проч. параметры, либо ошибка как альтернатива, которая обрабатывалась службой поддержки." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
+          <mxGeometry y="240" width="450" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-12" value="Для отладки использовался метод проверки статуса сообщений, реализованный в виде get запроса с передачей параметров аутентификации и айди сообщения в заголовке запроса. Метод возвращал состояние сообщения со всеми его параметрами, идентичными с методом отправки сообщений." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
+          <mxGeometry y="410" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-13" value="Так же использовали метод проверки состояния счета это проверка баланса, тарифов, использовался метод в ЛК администратора системы, где администратор мог при нажатии на кнопку вызвать метод гет, который передавал параметры аутентификационные на сторонний ресурс, вызывался он по-моему дважды, т.к. разные URL для баланса и тарифа, получали json объект с параметрами тарифа массив из объектов с ключами провайдер стоимость смс, или же баланс с выводом доступных средств. Далее данные передавались на сторону пользователя и выводились в модельном окне." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
+          <mxGeometry y="490" width="450" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
