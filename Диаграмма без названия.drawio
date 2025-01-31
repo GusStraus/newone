@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.10">
   <diagram name="Страница — 1" id="axzcmo0ZvVUuVzOqP3-f">
-    <mxGraphModel dx="1426" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2593" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1420,7 +1420,7 @@
           <mxGeometry y="490" width="450" height="120" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-8" value="Сервис генерации счетов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1120" width="450" height="910" as="geometry" />
+          <mxGeometry x="1640" y="1120" width="450" height="850" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-9" value="Ценность: Была выявлена потребность в генерации счетов, для контрагентов. На момент выявления потребности, у нас было окно для работы с договорами контрагентов, в котором стягивались все позиции закупаемые у конкретного поставщика, список позиций с указанием их наименования, единиц измерения и количества и для генерации счета, контрактная служба выгружала данные в Excel, затем переносила их в шаблоны в ворде. Решили оптимизировать процесс, добавив кнопку в модельном окне работы с договором, для генерации счета." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
           <mxGeometry y="30" width="450" height="130" as="geometry" />
@@ -1432,25 +1432,25 @@
           <mxGeometry y="330" width="450" height="170" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-12" value="После прохождения проверки можно было приступить к методам генерации счета, для того чтобы сгенерировать счет отправлялся post запрос на внутренний апи сервиса , с параметрами имени счета айди договора, так же наследовались параметры внешнего запроса с передачей объекта куки из которых получали айди пользователя вызвавшего генерацию, в процессе обработки запроса далее выполняется метод добавления нового счета в базу." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
-          <mxGeometry y="500" width="450" height="140" as="geometry" />
+          <mxGeometry y="500" width="450" height="100" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-13" value="После успешного&amp;nbsp; создания счета нужно зарезервировать в него позиции, которые уже были проверены на доступность резервирования, резервирование происходит в 2 этапа, на стороне самих позиций , путем вызова метода patch у позиции с передачей параметра айди позиции и параметра reserved в котором указывалось резервируемое количество, и метод добавления в смежную таблицу которая находилась в сервисе счетов, путем пост запроса с передачей параметров айди счета, айди позиции и резервируемого количества." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
-          <mxGeometry y="640" width="450" height="150" as="geometry" />
+          <mxGeometry y="600" width="450" height="130" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-14" value="Так же в дальнейшем по этому сервису были реализованы методы удаления счета с исключением резервирования позиций, методы изменения счета, и интерфейсы для визуализации данных на стороне пользователей системы. И методы генерации pdf файлов с использованием шаблонов ворд файлов. Отправка файлов на сторону пользователя, без их хранения. Приходилось хранить состояние шаблонов счетов в БД, т.к. шаблоны менялись но иногда нужно было восстановить какой-то файл в исходной форме.&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-8">
-          <mxGeometry y="790" width="450" height="120" as="geometry" />
+          <mxGeometry y="730" width="450" height="120" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-15" value="По генерации файлов" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="1120" width="410" height="370" as="geometry" />
+          <mxGeometry x="2120" y="1120" width="410" height="340" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-16" value="Для генерации использовали библиотеки такие как excelfornode генерация и чтение excel файлов, использовалась она у нас в основном для экспорта позиций контрактной службе, т.к. привыкли к экселю чтобы переход к системе был более плавным реализовывали методы экспорта и импорта таблиц с позициями на первое время, ну и пользователям многим было удобнее с возможность выгрузки таблиц, (ШУТКО безопасно и таблично)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-15">
-          <mxGeometry y="30" width="410" height="130" as="geometry" />
+          <mxGeometry y="30" width="410" height="110" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-17" value="PDF-reader использовали, node-pdf библиотеки для работы с пдф файлами , вообще все генерируемые документы мы конвертили в пдф, использовали метод склейки пдф документов, присутствовали шаблоны в генерации несколько подразделений предоставляющие разные части документа. Метод - реализация логики работы с файлом принимал на вход массив документов на выходе возращал единый файл в виде стрима. Метод генерации из js шаблона, на вход какой шаблон вызывать, данные для шаблона, возвращал готовый документ.&lt;br&gt;По поводу шаблонов шаблоны мы реализовывали самостоятельно, т.к. не было библиотек конвертации шаблонов ворд, приходилось конверитровать ворд файл в js, и уже js файл подвергался модификациям, на выходе метод возвращал готовый к дальнейшим действиям pdf." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-15">
-          <mxGeometry y="160" width="410" height="210" as="geometry" />
+          <mxGeometry y="140" width="410" height="200" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-19" value="Уведомления пользователей системы о смене статуса позиций" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1120" width="450" height="900" as="geometry" />
+          <mxGeometry x="680" y="1120" width="450" height="790" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-20" value="Ценность: Львиная доля сервиса это перекидывания позиций из подразделения в подразделение, от создателя позиции, или же пользователя выявившего потребность в каком-то продукте, к сотруднику отдела снабжения, от отдела снабжения к сотруднику контрактной службы, от контрактной службы обратно к сотруднику, и каждый этап (в рамках системы он назывался статусом позиции) каждое изменение статуса, требовало последующих действий от определенных групп пользователей, собственно для инициализации этих действий использовался сервис уведомлений, в котором был реализован мастер метод&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-19">
           <mxGeometry y="30" width="450" height="140" as="geometry" />
@@ -1459,13 +1459,22 @@
           <mxGeometry y="170" width="450" height="170" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-22" value="Если по порядку, то метод распределения позиций сравнивал статусы с глобальной моделью статусов, в которой были указаны типы уведомлений для каждого статуса, далее проверялся локальный пул уведомлений сгенерированный мастер методом, в случае если данного типа еще не было он добавлялся, в противном случае существующий тип дополнялся позицией из списка." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-19">
-          <mxGeometry y="340" width="450" height="170" as="geometry" />
+          <mxGeometry y="340" width="450" height="100" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-23" value="После формирования пула типов уведомлений, необходимо было сформировать пул пользователей которым будет направлено уведомление, за это отвечал метод формирования уведомлений по пользователям, который распределял типы алертов с позициями привязанными к этим алертам по пользователям, так же данный метод генерировал сообщения которые будут в дальнейшем направлены пользователю. Метод так же выполнял роль оптимизации сообщений, т.к. объединял несколько алертов направленных одному пользователю , в одно сообщение для экономии трафика." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-19">
-          <mxGeometry y="510" width="450" height="130" as="geometry" />
+          <mxGeometry y="440" width="450" height="130" as="geometry" />
         </mxCell>
         <mxCell id="j2Eqjv5FCKuMv0kvKQWr-24" value="И наконец все уведомления распределенные по пользователям попадали в метод отправки уведомлений, который определял способ доставки, выбранный пользователем либо почта (тут у нас был дополнительный метод отправки который использовал для рассылки либо меил либо gmail, т.к. сервисы конфликтовали и сообщеиния с gmail не доходили до mail.ru группы пользователей) для мейла настраивали smtp потом мы собственно отказались от этой идеи и ушли к стороннему сервису который реализовывал доставку сообщений с помощью REST api там метод генереровал пост запрос с передачей параметров login api key сообщения, имя отправителя (from) ,where (куда отправить) в ответе получали статус отправки, в случае ошибки использовали старый smtp сервис , либо телеграм, либо в редких случаях смс уведомления, смс мы отправляли только той категории пользователей, которые до сих пор используют кнопочный телефон. (да и такие попадались&amp;nbsp; ШУТКО)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-19">
-          <mxGeometry y="640" width="450" height="260" as="geometry" />
+          <mxGeometry y="570" width="450" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-25" value="По дадате" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="1120" width="410" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-26" value="Использовали так дадату, например для стандартизации ФИО и перевода в другой падеж, в шаблонах. Метод пост запроса передавая апи ключ и фио в вида параметров в ответе получали объект из ФИО в разных падежах." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-25">
+          <mxGeometry y="30" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j2Eqjv5FCKuMv0kvKQWr-27" value="Или для подсказок, адресов использовали, при вводе пользователем адреса, после перевого введенного слова, отправлялся пост запрос, на дадату с передачей параметров в виде строки куска адреса, введенного пользователем, и в ответ получали массив из объектов потенциальных адресов, с указанием их параметров, один из которых был стандартизированный адрес, в виде гор ул.дом. выводили эти адреса в виде подсказок, подпихивая их в даталист привязанный к форме ввода. Запрос происходил рекурсивно до выбора какого-то значения из пула подсказок пользователем." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="j2Eqjv5FCKuMv0kvKQWr-25">
+          <mxGeometry y="100" width="410" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
